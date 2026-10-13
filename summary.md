@@ -1,0 +1,3 @@
+# Summary
+
+In this lesson we have discussed logistic regression as our first applied example of the GLM framework. ...

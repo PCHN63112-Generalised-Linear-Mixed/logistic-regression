@@ -1,2 +1,2 @@
-# logistic-regression
-Lesson on logistic regression
+# extending-linear-models
+Lesson on extending linear models to non-normal outcomes.

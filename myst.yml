@@ -1,0 +1,25 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 1d7c63c0-bb21-49f2-bfbd-e2f21bf9bd34
+  title: GLM I - Logistic Regression
+  # description:
+  # keywords: []
+  authors: Martyn McFarquhar
+  github: https://github.com/PCHN63112-Generalised-Linear-Mixed/logistic-regression
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  static_files:
+    - assets/rgl
+  toc:
+    - file: 0.intro.ipynb
+    - file: 1.binary-logistic-regression.ipynb
+    - file: 2.binary-logistic-regression-R.ipynb
+    - file: 3.binomial-logistic-regression.ipynb
+    - file: 4.binomial-logistic-regression-R.ipynb
+    - file: 5.hypothesis-tests-deviance.ipynb
+    - file: summary
+site:
+  template: book-theme
+  logo: images/logo.png
+  logo_dark: images/logo-dark.png
+  logo_url: https://canvas.manchester.ac.uk/courses/
