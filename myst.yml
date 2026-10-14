@@ -12,11 +12,16 @@ project:
     - assets/rgl
   toc:
     - file: 0.intro.ipynb
-    - file: 1.binary-logistic-regression.ipynb
-    - file: 2.binary-logistic-regression-R.ipynb
-    - file: 3.binomial-logistic-regression.ipynb
-    - file: 4.binomial-logistic-regression-R.ipynb
-    - file: 5.hypothesis-tests-deviance.ipynb
+    - title: Binary Logistic Regression
+      children:
+        - file: 1.binary-logistic/1.basic-model.ipynb
+        - file: 1.binary-logistic/2.parameter-interpretation.ipynb
+        - file: 1.binary-logistic/3.hypothesis-tests.ipynb
+        - file: 1.binary-logistic/4.R.ipynb
+    - title: Binomial Logistic Regression
+      children:
+        - file: 2.binomial-logistic/1.model.ipynb
+        - file: 2.binomial-logistic/2.R.ipynb
     - file: summary
 site:
   template: book-theme
