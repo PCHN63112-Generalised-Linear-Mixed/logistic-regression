@@ -8,8 +8,6 @@ project:
   authors: Martyn McFarquhar
   github: https://github.com/PCHN63112-Generalised-Linear-Mixed/logistic-regression
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
-  static_files:
-    - assets/rgl
   toc:
     - file: 0.intro.ipynb
     - title: Binary Logistic Regression
