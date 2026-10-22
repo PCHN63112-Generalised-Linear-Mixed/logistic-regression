@@ -14,8 +14,9 @@ project:
       children:
         - file: 1.binary-logistic/1.basic-model.ipynb
         - file: 1.binary-logistic/2.parameter-interpretation.ipynb
-        - file: 1.binary-logistic/3.hypothesis-tests.ipynb
-        - file: 1.binary-logistic/4.R.ipynb
+        - file: 1.binary-logistic/3.assumptions.ipynb
+        - file: 1.binary-logistic/4.hypothesis-tests.ipynb
+        - file: 1.binary-logistic/5.R.ipynb
     - title: Binomial Logistic Regression
       children:
         - file: 2.binomial-logistic/1.model.ipynb
